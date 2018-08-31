@@ -1,0 +1,193 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.top_container {
+    width: 100vw;
+    background-color: black;
+    height: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.top_menu {
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1350px) {
+    .top_container {
+        height: 110px;
+    }
+    .top_menu {
+        width: 800px;
+    }
+}
+
+.button_time, .button_viscosity, .top_buttons, .button_jacobi {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    border-radius: 0;
+    float:left;
+    height: 40px;
+    width: 100px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.half {
+    width: 50px;
+}
+
+.button_time:hover, .button_viscosity:hover, .button_jacobi:hover, .top_buttons:hover, #closeHelp:hover {
+    background-color: #bababa;
+}
+
+.active {
+    background-color: #777777;
+}
+
+.top_space {
+    float:left;
+    height: 40px;
+    width: 10px;
+}
+
+.top_text {
+    float:left;
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: transparent;
+    border: 0;
+    margin-top: 10px;
+}
+
+.black_wrapper {
+    width: 100%;
+    background-color: black;
+}
+
+.container {
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+}
+
+#data {
+    width: 750px;
+    margin: 0 auto;
+}
+
+#data span {
+    width: 50px;
+    margin: 0 auto;
+}
+ 
+canvas {
+    left: 0px;
+    top: 0px;
+}
+
+#sphere_selection {
+    /*border: 1px solid #666;*/
+    cursor: pointer;
+}
+
+#sphere {
+    position: absolute;
+    z-index: 10;
+    background: transparent;
+}
+
+.data_table {
+    margin: 0 auto;
+}
+
+.data_table td {
+    width: 100px;
+    border: solid 1px;
+    text-align: center;
+}
+
+.col_log {
+    width: 250px;
+    height: 150px;
+}
+
+#data_log {
+    height: 100%;
+    width: 250px;
+    text-align: left;
+    overflow-y: scroll;
+}
+
+.modal_container {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 20; /* Sit on top */
+    padding-top: 80px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal_content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 600px;
+    height: 600px;
+    overflow-y: auto;
+}
+
+#closeHelp {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    border-radius: 0;
+    height: 40px;
+    width: 580px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.log_buttons {
+    height: 22px;
+}
+
+#exportCSV, #clearLog {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+}
+
+#exportCSV:hover, #clearLog:hover {
+    background-color: #bababa;
+}
+
+#exportCSV:active, #clearLog:active {
+    background-color: #777777;
+}
+
+.footer_meta {
+    position: absolute;
+    right: 46px;
+    font-size: 16px;
+    z-index: 10;
+    color: black;
+}
+
+.footer_meta li {
+  display: inline;
+}
