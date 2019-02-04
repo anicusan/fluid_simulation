@@ -51,7 +51,7 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
     {
       name: 'Steel - 3/8", 5/16", 1/4", 3/16"',
       description: 'Steel 3/8"',
-      // --Initial position-- 
+      // --Initial position--
       position: {x: false, y: false},
       velocity: {x: 0, y: 0},
       acc: {x: 0, y: 0},
@@ -70,7 +70,7 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
     // Sphere 1, stainless steel
     {
       description: 'Steel 5/16"',
-      // --Initial position-- 
+      // --Initial position--
       position: {x: false, y: false},
       velocity: {x: 0, y: 0},
       acc: {x: 0, y: 0},
@@ -89,7 +89,7 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
     // Sphere 2, stainless steel
     {
       description: 'Steel 1/4"',
-      // --Initial position-- 
+      // --Initial position--
       position: {x: false, y: false},
       velocity: {x: 0, y: 0},
       acc: {x: 0, y: 0},
@@ -108,7 +108,7 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
     // Sphere 3, stainless steel
     {
       description: 'Steel 3/16"',
-      // --Initial position-- 
+      // --Initial position--
       position: {x: false, y: false},
       velocity: {x: 0, y: 0},
       acc: {x: 0, y: 0},
@@ -128,7 +128,7 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
     {
       name: 'Glass - 3/8", 5/16", 1/4", 3/16"',
       description: 'Glass 3/8"',
-      // --Initial position-- 
+      // --Initial position--
       position: {x: false, y: false},
       velocity: {x: 0, y: 0},
       acc: {x: 0, y: 0},
@@ -147,7 +147,7 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
     // Sphere 5, glass
     {
       description: 'Glass 5/16"',
-      // --Initial position-- 
+      // --Initial position--
       position: {x: false, y: false},
       velocity: {x: 0, y: 0},
       acc: {x: 0, y: 0},
@@ -166,7 +166,7 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
     // Sphere 6, glass
     {
       description: 'Glass 1/4"',
-      // --Initial position-- 
+      // --Initial position--
       position: {x: false, y: false},
       velocity: {x: 0, y: 0},
       acc: {x: 0, y: 0},
@@ -185,7 +185,7 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
     // Sphere 7, glass
     {
       description: 'Glass 3/16"',
-      // --Initial position-- 
+      // --Initial position--
       position: {x: false, y: false},
       velocity: {x: 0, y: 0},
       acc: {x: 0, y: 0},
@@ -205,7 +205,7 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
     {
       name: 'PTFE - 3/8", 5/16", 1/4", 3/16"',
       description: 'PTFE 3/8"',
-      // --Initial position-- 
+      // --Initial position--
       position: {x: false, y: false},
       velocity: {x: 0, y: 0},
       acc: {x: 0, y: 0},
@@ -224,7 +224,7 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
     // Sphere 9, PTFE
     {
       description: 'PTFE 5/16"',
-      // --Initial position-- 
+      // --Initial position--
       position: {x: false, y: false},
       velocity: {x: 0, y: 0},
       acc: {x: 0, y: 0},
@@ -243,7 +243,7 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
     // Sphere 10, PTFE
     {
       description: 'PTFE 1/4"',
-      // --Initial position-- 
+      // --Initial position--
       position: {x: false, y: false},
       velocity: {x: 0, y: 0},
       acc: {x: 0, y: 0},
@@ -262,7 +262,7 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
     // Sphere 11, PTFE
     {
       description: 'PTFE 3/16"',
-      // --Initial position-- 
+      // --Initial position--
       position: {x: false, y: false},
       velocity: {x: 0, y: 0},
       acc: {x: 0, y: 0},
@@ -282,7 +282,7 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
     {
       name: 'Nylon - 3/8", 5/16", 1/4", 3/16"',
       description: 'Nylon 3/8"',
-      // --Initial position-- 
+      // --Initial position--
       position: {x: false, y: false},
       velocity: {x: 0, y: 0},
       acc: {x: 0, y: 0},
@@ -301,7 +301,7 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
     // Sphere 13, Nylon
     {
       description: 'Nylon 5/16"',
-      // --Initial position-- 
+      // --Initial position--
       position: {x: false, y: false},
       velocity: {x: 0, y: 0},
       acc: {x: 0, y: 0},
@@ -320,7 +320,7 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
     // Sphere 14, Nylon
     {
       description: 'Nylon 1/4"',
-      // --Initial position-- 
+      // --Initial position--
       position: {x: false, y: false},
       velocity: {x: 0, y: 0},
       acc: {x: 0, y: 0},
@@ -339,7 +339,7 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
     // Sphere 15, Nylon
     {
       description: 'Nylon 3/16"',
-      // --Initial position-- 
+      // --Initial position--
       position: {x: false, y: false},
       velocity: {x: 0, y: 0},
       acc: {x: 0, y: 0},
@@ -359,7 +359,7 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
     // Sphere 0, rubber
     {
       name: 'rubber',
-      // --Initial position-- 
+      // --Initial position--
       position: {x: false, y: false},
       velocity: {x: 0, y: 0},
       acc: {x: 0, y: 0},
@@ -378,7 +378,7 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
     // sphere 1, wood
     {
       name: 'wood',
-      // --Initial position-- 
+      // --Initial position--
       position: {x: false, y: false},
       velocity: {x: 0, y: 0},
       acc: {x: 0, y: 0},
@@ -397,7 +397,7 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
     // Sphere 3, lead
     {
       name: 'lead',
-      // --Initial position-- 
+      // --Initial position--
       position: {x: false, y: false},
       velocity: {x: 0, y: 0},
       acc: {x: 0, y: 0},
@@ -412,7 +412,7 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
       A: false,
       V: false,
       buoyancy: false,
-    }, 
+    },
     */
 
   ];
@@ -551,14 +551,6 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
     DELTA_T = 1/60;
     stopsim = false;
   });
-  $("#real_time").click(function(e) {
-    e.preventDefault();
-    $('.button_time').not(this).removeClass('active');
-    $(this).addClass("active");
-
-    DELTA_T = 1/60;
-    stopsim = false;
-  });
   $("#2x_faster").click(function(e) {
     e.preventDefault();
     $('.button_time').not(this).removeClass('active');
@@ -575,6 +567,8 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
     DELTA_T = 1/15;
     stopsim = false;
   });
+
+  $("#2x_faster").click();
 
   var canvas = document.getElementById(canvasId);
   var sphereCanvas = document.getElementById(sphereCanvasID);
@@ -597,7 +591,7 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
 
   /*
    *  Sphere Environment Functionality Start
-   */   
+   */
 
   function sphere_getMousePosition(e) {
     mouse.x = e.pageX - $(sphereCanvas).offset().left;
@@ -613,7 +607,7 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
     }
   }
 
-  function sphere_mouseUp(e) { 
+  function sphere_mouseUp(e) {
     if (e.which == 1) {
         mouse.isDown = false;
         console.log('x: '+(spheres[selectedSphere].position.y - mouse.y / HEIGHT * dim));
@@ -683,7 +677,7 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
         // Reynolds number: Re = velocity * diameter / kinematic_viscosity
         eqVel = Math.sqrt(sph.velocity.x * sph.velocity.x + sph.velocity.y * sph.velocity.y);
         Re = Math.abs(eqVel) * 2 * sph.radius / VISCOSITY;
-        
+
         //console.log('Re: '+Re);
 
         if (Re < 0.2 )
@@ -886,7 +880,7 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
       );
     });
     textures.swap('velocity0', 'velocity1');
-  };  
+  };
 
   /*
    *  Sphere Environment Functionality End
@@ -957,7 +951,7 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
         gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0); \
       } \
     ');
-    
+
     // Triangle pointing towards positive x axis
     // with baseline on the y axis
     var triangleVertices = [
@@ -968,9 +962,9 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
 
     var arrowsMesh = new GL.Mesh({triangles: false});
     arrowsMesh.addVertexBuffer('positions', 'position');
-    
+
     var INTERVAL = 30;
-    
+
     for (var i = INTERVAL / 2; i < HEIGHT; i += INTERVAL) {
       for (var j = INTERVAL / 2; j < WIDTH; j += INTERVAL) {
         for (var k = 0; k < 3; k++) {
@@ -981,14 +975,14 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
     }
     console.log(arrowsMesh);
     arrowsMesh.compile();
-    
+
     return function(velocityTexture) {
       velocityTexture.bind(0);
       shader.uniforms({
         velocity: 0
       });
-      
-      shader.draw(arrowsMesh, gl.TRIANGLES);    
+
+      shader.draw(arrowsMesh, gl.TRIANGLES);
     };
   })();
 
@@ -1029,7 +1023,7 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
         gl_FragColor = texture2D(inputTexture, textureCoord); \
       } \
     ');
-    
+
     return function(inputTexture) {
       inputTexture.bind(0);
       shader.uniforms({
@@ -1055,7 +1049,7 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
         input: 0
       });
       shader.draw(standardMesh, gl.TRIANGLE_STRIP)
-    };  
+    };
   })();
 
   // Given an velocity texture and a time delta, advect the
@@ -1378,7 +1372,7 @@ window.FluidSim = function(canvasId, sphereCanvasID, sphereSelectionID, options)
       drawVectorFieldArrows(textures.velocity0);
     }
     gl.begin(gl.POINTS); gl.vertex(1, 2, 3); gl.end();
-    
+
     drawSphere();
     sphereSplash();
     if (mouse.isDown)
